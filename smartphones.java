@@ -1,14 +1,14 @@
 public class Smartphones{
-    String SO;
+    String so;
     boolean acceleròmetre = false;
     boolean gps = true;
 
     public String getSO() {
-        return SO;
+        return so;
     }
 
-    public void setSO(String SO) {
-        this.SO = SO;
+    public void setSO(String so) {
+        this.so = so;
     }
 
     public boolean isAcceleròmetre() {
@@ -29,7 +29,7 @@ public class Smartphones{
 
     @Override
     public String toString() {
-        return "smartphones{" + "SO=" + SO + ", acceler\u00f2metre=" + acceleròmetre + ", gps=" + gps + '}';
+        return "smartphones{" + "SO=" + so + ", acceler\u00f2metre=" + acceleròmetre + ", gps=" + gps + '}';
     }
 
     
