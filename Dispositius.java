@@ -3,6 +3,12 @@ public class Dispositius{
     String model;
     float preu;
 
+    public Dispositius(String marca, String model, float preu) {
+        this.marca = marca;
+        this.model = model;
+        this.preu = preu;
+    }
+
     public String getMarca() {
         return marca;
     }

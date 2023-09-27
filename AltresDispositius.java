@@ -1,10 +1,14 @@
-public class AltresDispositius {
+public class AltresDispositius extends Dispositius {
     String Nom;
     boolean Smarthpone;
     boolean Tablet;
     String descripcioDispositiu;
 
-    public AltresDispositius(String nom, boolean smarthpone, boolean tablet, String descripcioDispositiu) {
+
+
+    public AltresDispositius(String marca, String model, float preu, String nom, boolean smarthpone, boolean tablet,
+        String descripcioDispositiu) {
+        super(marca, model, preu);
         Nom = nom;
         Smarthpone = smarthpone;
         Tablet = tablet;
@@ -45,8 +49,8 @@ public class AltresDispositius {
 
     @Override
     public String toString() {
-        return "AltresDispositius [Nom=" + Nom + ", Smarthpone=" + Smarthpone + ", Tablet=" + Tablet
-                + ", descripcioDispositiu=" + descripcioDispositiu + "]";
+        return "AltresDispositius Nom=" + Nom + ", Smarthpone=" + Smarthpone + ", Tablet=" + Tablet
+                + ", descripcioDispositiu=" + descripcioDispositiu + "\n";
     }  
 
     

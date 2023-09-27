@@ -1,8 +1,10 @@
 public class Tablet extends Dispositius {
     private float pulgadas;
 
-    public Tablet(float pulgadas) {
-        super();
+
+
+    public Tablet(String marca, String model, float preu,float pulgadas) {
+        super(marca, model, preu);
         setPulgadas(pulgadas);
     }
 
@@ -16,6 +18,6 @@ public class Tablet extends Dispositius {
 
     @Override
     public String toString() {
-        return "Esta tablet tiene " + getPulgadas(this.pulgadas) + "pulgadas.";
+        return "Esta tablet tiene " + getPulgadas(this.pulgadas) + "pulgadas.\n";
     }
 }
