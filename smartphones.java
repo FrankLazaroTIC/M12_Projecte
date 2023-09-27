@@ -1,4 +1,4 @@
-public class smartphones{
+public class Smartphones{
     String SO;
     boolean acceleròmetre = false;
     boolean gps = true;
