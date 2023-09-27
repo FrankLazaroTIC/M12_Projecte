@@ -1,4 +1,4 @@
-public class dispositius{
+public class Dispositius{
     String marca;
     String model;
     float preu;
