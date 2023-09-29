@@ -18,6 +18,6 @@ public class Tablet extends Dispositius {
 
     @Override
     public String toString() {
-        return "Esta tablet tiene " + getPulgadas(this.pulgadas) + "pulgadas.\n";
+        return "Marca= "+marca+", Model= "+model+", preu "+preu+" Esta tablet tiene " + getPulgadas(this.pulgadas) + "pulgadas.\n";
     }
 }

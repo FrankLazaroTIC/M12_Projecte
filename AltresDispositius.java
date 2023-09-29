@@ -6,7 +6,7 @@ public class AltresDispositius extends Dispositius {
 
 
 
-    public AltresDispositius(String marca, String model, float preu, String nom, boolean smarthpone, boolean tablet,
+    public AltresDispositius(String marca, String model, float preu ,String nom, boolean smarthpone, boolean tablet,
         String descripcioDispositiu) {
         super(marca, model, preu);
         Nom = nom;
@@ -49,7 +49,7 @@ public class AltresDispositius extends Dispositius {
 
     @Override
     public String toString() {
-        return "AltresDispositius Nom=" + Nom + ", Smarthpone=" + Smarthpone + ", Tablet=" + Tablet
+        return "AltresDispositius Marca= "+marca+", Model= "+model+", preu "+preu+" Nom=" + Nom + ", Smarthpone=" + Smarthpone + ", Tablet=" + Tablet
                 + ", descripcioDispositiu=" + descripcioDispositiu + "\n";
     }  
 
