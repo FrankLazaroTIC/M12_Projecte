@@ -17,13 +17,34 @@ public class Main {
     
     static AltresDispositius portatil = new AltresDispositius("Lenovo","ideapad3",800,"portatil",false,false,"portatil");
 
-
+    
     public static void main(String[] args) {
+
+        
+
         lista.add(rellotge);
         lista.add(mobil);
         lista.add(iPhone);
         lista.add(tablet);
         lista.add(portatil);
         System.out.println(lista);
+        /*rellotge.setPreuF(rellotge.getPreu()*2);
+        mobil.setPreuF(mobil.getPreu()*2);
+        iPhone.setPreuF(iPhone.getPreu()*2);
+        tablet.setPreuF(tablet.getPreu()*2);
+        portatil.setPreuF(portatil.getPreu()*2);
+        /*float preuFR =rellotge.getPreu()*2 ;
+        float preuFM =mobil.getPreu()*2 ;
+        float preuFI =iPhone.getPreu()*2 ;
+        float preuFT =tablet.getPreu()*2 ;
+        float preuFP =portatil.getPreu()*2 ;
+        if()*/
+        ;
+
+        System.out.println("El preu final de aquesta dispositiu es: "+rellotge.prueF());
+        System.out.println("El preu final de aquesta dispositiu es: "+mobil.preuFS());
+        System.out.println("El preu final de aquesta dispositiu es: "+iPhone.prueF());
+        System.out.println("El preu final de aquesta dispositiu es: "+tablet.prueF());
+        System.out.println("El preu final de aquesta dispositiu es: "+portatil.prueF());
     }
 }
